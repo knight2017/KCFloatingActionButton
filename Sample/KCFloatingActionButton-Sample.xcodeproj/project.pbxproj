@@ -20,6 +20,12 @@
 		B6F66E1C1BC1017F00E47769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F66E1B1BC1017F00E47769 /* ViewController.swift */; };
 		B6F66E1F1BC1017F00E47769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F66E1D1BC1017F00E47769 /* Main.storyboard */; };
 		B6F66E211BC1017F00E47769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F66E201BC1017F00E47769 /* Assets.xcassets */; };
+		E504409A1E3872200069B168 /* mySegmentedControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50440991E3872200069B168 /* mySegmentedControll.swift */; };
+		E504409C1E388AFD0069B168 /* segTry2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E504409B1E388AFD0069B168 /* segTry2.swift */; };
+		E545F71C1E39883200024593 /* segCtrlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E545F71B1E39883200024593 /* segCtrlViewController.swift */; };
+		E5CE75F11E383F7400EBB011 /* floatButtontableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE75F01E383F7400EBB011 /* floatButtontableView.swift */; };
+		E5CE75F31E38408A00EBB011 /* floatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE75F21E38408A00EBB011 /* floatViewController.swift */; };
+		E5CE75F61E3841A400EBB011 /* flaotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE75F51E3841A400EBB011 /* flaotTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,12 @@
 		B6F66E1E1BC1017F00E47769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6F66E201BC1017F00E47769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6F66E251BC1017F00E47769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50440991E3872200069B168 /* mySegmentedControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mySegmentedControll.swift; sourceTree = "<group>"; };
+		E504409B1E388AFD0069B168 /* segTry2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segTry2.swift; sourceTree = "<group>"; };
+		E545F71B1E39883200024593 /* segCtrlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segCtrlViewController.swift; sourceTree = "<group>"; };
+		E5CE75F01E383F7400EBB011 /* floatButtontableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = floatButtontableView.swift; sourceTree = "<group>"; };
+		E5CE75F21E38408A00EBB011 /* floatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = floatViewController.swift; sourceTree = "<group>"; };
+		E5CE75F51E3841A400EBB011 /* flaotTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flaotTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +86,13 @@
 				B6F66E191BC1017F00E47769 /* AppDelegate.swift */,
 				B6F66E1B1BC1017F00E47769 /* ViewController.swift */,
 				B6CC36171D91CBFB00D04C6C /* TableViewController.swift */,
+				E5CE75F41E38409300EBB011 /* floatButton */,
 				B6F66E1D1BC1017F00E47769 /* Main.storyboard */,
 				B6F66E201BC1017F00E47769 /* Assets.xcassets */,
 				B675871D1BCCFEBC00C4BEAF /* Icons.xcassets */,
 				B6F66E251BC1017F00E47769 /* Info.plist */,
 				B6640EA11BCEA8DA0099510D /* LaunchScreen.xib */,
+				E545F71B1E39883200024593 /* segCtrlViewController.swift */,
 			);
 			name = "KCFloatingActionButton-Sample";
 			path = KCFloatingActionButton;
@@ -95,6 +109,18 @@
 				B65A2E421D5974FF0045483D /* KCFloatingActionButtonItem.swift */,
 			);
 			name = KCFloatingActionButton;
+			sourceTree = "<group>";
+		};
+		E5CE75F41E38409300EBB011 /* floatButton */ = {
+			isa = PBXGroup;
+			children = (
+				E5CE75F01E383F7400EBB011 /* floatButtontableView.swift */,
+				E5CE75F21E38408A00EBB011 /* floatViewController.swift */,
+				E5CE75F51E3841A400EBB011 /* flaotTableViewCell.swift */,
+				E50440991E3872200069B168 /* mySegmentedControll.swift */,
+				E504409B1E388AFD0069B168 /* segTry2.swift */,
+			);
+			name = floatButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,12 +195,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CE75F61E3841A400EBB011 /* flaotTableViewCell.swift in Sources */,
+				E545F71C1E39883200024593 /* segCtrlViewController.swift in Sources */,
 				B6F66E1C1BC1017F00E47769 /* ViewController.swift in Sources */,
 				B65A2E481D5974FF0045483D /* KCFloatingActionButtonItem.swift in Sources */,
+				E504409A1E3872200069B168 /* mySegmentedControll.swift in Sources */,
+				E5CE75F31E38408A00EBB011 /* floatViewController.swift in Sources */,
+				E5CE75F11E383F7400EBB011 /* floatButtontableView.swift in Sources */,
 				B6F66E1A1BC1017F00E47769 /* AppDelegate.swift in Sources */,
 				B6CC36181D91CBFB00D04C6C /* TableViewController.swift in Sources */,
 				B65A2E451D5974FF0045483D /* KCFABWindow.swift in Sources */,
 				B65A2E441D5974FF0045483D /* KCFABViewController.swift in Sources */,
+				E504409C1E388AFD0069B168 /* segTry2.swift in Sources */,
 				B65A2E431D5974FF0045483D /* KCFABManager.swift in Sources */,
 				B65A2E471D5974FF0045483D /* KCFloatingActionButtonDelegate.swift in Sources */,
 				B65A2E461D5974FF0045483D /* KCFloatingActionButton.swift in Sources */,
